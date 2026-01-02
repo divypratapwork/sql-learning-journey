@@ -1,14 +1,18 @@
-**What I learned today:**
-_1. Sorting data using ORDER BY
-2. Multi-column sorting with ASC and DESC
-3. Aggregating data using SUM(), COUNT(), and AVG()
-4. Grouping data using GROUP BY
-5. Filtering grouped results using HAVING
-6. Filtering rows using WHERE
-7. Retrieving unique values using DISTINCT
-8. Limiting result sets using TOP_
+### What I learned today
+- Sorting data using `ORDER BY`
+- Using `ASC` and `DESC`
+- Sorting with multiple columns
+- Aggregating data using `SUM()`, `COUNT()`, and `AVG()`
+- Grouping data using `GROUP BY`
+- Filtering grouped results using `HAVING`
+- Filtering rows using `WHERE`
+- Retrieving unique values using `DISTINCT`
+- Limiting result sets using `TOP`
 
-**Learning method:**
-_1. Hands-on SQL practice
-2. Business-oriented customer analysis
-3. Gradual increase in query complexity from basic to intermediate_
+### Learning method
+- Hands-on SQL practice
+- Solving customer-based analytical queries
+- Gradual progression from basic to intermediate concepts
+
+### Summary
+This day focused on building strong SQL fundamentals by practicing sorting, aggregation, grouping, and filtering techniques commonly used in data analysis.
