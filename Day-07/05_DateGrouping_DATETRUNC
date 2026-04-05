@@ -1,0 +1,19 @@
+/*
+Problem:
+Find number of orders per month using creation time.
+
+Concepts used:
+DATETRUNC, COUNT, GROUP BY
+
+Approach:
+Group orders by month.
+
+Result:
+Returns total orders per month.
+*/
+
+SELECT
+    DATETRUNC(MONTH, creationTime) AS creations,
+    COUNT(*) AS total_orders 
+FROM sales.Orders
+GROUP BY DATETRUNC(MONTH, creationTime);
